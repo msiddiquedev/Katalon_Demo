@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 128.0.0.0,,,10-09-2024 23:09:02,10-09-2024 23:09:46,43.903s,PASSED
+,,,,,,,
+Test Cases/Record and Play Tests/Login,Chrome 128.0.0.0,,,10-09-2024 23:09:04,10-09-2024 23:09:46,41.950s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,10-09-2024 23:09:06,10-09-2024 23:09:14,7.355s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,10-09-2024 23:09:14,10-09-2024 23:09:14,0.300s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 128.0.0.0,,,10-09-2024 23:09:14,10-09-2024 23:09:24,10.003s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 128.0.0.0,,,10-09-2024 23:09:24,10-09-2024 23:09:30,5.776s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Login""))",Chrome 128.0.0.0,,,10-09-2024 23:09:30,10-09-2024 23:09:32,2.011s,PASSED
+"setText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 128.0.0.0,,,10-09-2024 23:09:32,10-09-2024 23:09:37,5.041s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 128.0.0.0,,,10-09-2024 23:09:37,10-09-2024 23:09:38,1.001s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/button_Login""))",Chrome 128.0.0.0,,,10-09-2024 23:09:38,10-09-2024 23:09:40,2.050s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 128.0.0.0,,,10-09-2024 23:09:40,10-09-2024 23:09:40,0.409s,PASSED
+delay(3),Chrome 128.0.0.0,,,10-09-2024 23:09:40,10-09-2024 23:09:43,3.108s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Logout""))",Chrome 128.0.0.0,,,10-09-2024 23:09:43,10-09-2024 23:09:45,1.151s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,10-09-2024 23:09:45,10-09-2024 23:09:46,1.364s,PASSED

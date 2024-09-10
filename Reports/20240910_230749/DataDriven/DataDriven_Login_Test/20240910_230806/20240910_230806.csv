@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDriven_Login_Test,Firefox 130.0,,,10-09-2024 23:09:00,10-09-2024 23:09:47,47.373s,PASSED
+,,,,,,,
+Test Cases/Data Driven Tests/Login,Firefox 130.0,,,10-09-2024 23:09:02,10-09-2024 23:09:47,45.514s,PASSED
+"openBrowser("""")",Firefox 130.0,,,10-09-2024 23:09:05,10-09-2024 23:09:30,24.398s,PASSED
+maximizeWindow(),Firefox 130.0,,,10-09-2024 23:09:30,10-09-2024 23:09:30,0.445s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Firefox 130.0,,,10-09-2024 23:09:30,10-09-2024 23:09:35,4.512s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Firefox 130.0,,,10-09-2024 23:09:35,10-09-2024 23:09:36,1.201s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Login""))",Firefox 130.0,,,10-09-2024 23:09:36,10-09-2024 23:09:37,1.488s,PASSED
+"setText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Username_username""), Username)",Firefox 130.0,,,10-09-2024 23:09:37,10-09-2024 23:09:38,0.940s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Password_password""), Password)",Firefox 130.0,,,10-09-2024 23:09:38,10-09-2024 23:09:39,0.408s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/button_Login""))",Firefox 130.0,,,10-09-2024 23:09:39,10-09-2024 23:09:41,1.951s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Firefox 130.0,,,10-09-2024 23:09:41,10-09-2024 23:09:41,0.694s,PASSED
+delay(3),Firefox 130.0,,,10-09-2024 23:09:41,10-09-2024 23:09:44,3.083s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Logout""))",Firefox 130.0,,,10-09-2024 23:09:44,10-09-2024 23:09:45,1.097s,PASSED
+closeBrowser(),Firefox 130.0,,,10-09-2024 23:09:45,10-09-2024 23:09:47,1.990s,PASSED

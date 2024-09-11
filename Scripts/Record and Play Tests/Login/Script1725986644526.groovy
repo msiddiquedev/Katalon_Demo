@@ -17,21 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
+//WebUI.openBrowser('')
+//WebUI.maximizeWindow()
+//WebUI.navigateToUrl(GlobalVariable.URL)
 WebUI.click(findTestObject('Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars'))
 
 WebUI.click(findTestObject('Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Login'))
 
 WebUI.setText(findTestObject('Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Username_username'), 
-    'John Doe')
+    GlobalVariable.Username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Password_password'), 
-    'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+    GlobalVariable.Password)
 
 WebUI.click(findTestObject('Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/button_Login'))
 
@@ -40,6 +37,4 @@ WebUI.click(findTestObject('Object Repository/Record and Play Objects/Login/Page
 WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Logout'))
-
-WebUI.closeBrowser()
 

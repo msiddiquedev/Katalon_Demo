@@ -29,7 +29,8 @@ WebUI.click(findTestObject('Scriptless Mocked Objects/Login/Page_CURA Healthcare
 
 WebUI.setText(findTestObject('Scriptless Mocked Objects/Login/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Scriptless Mocked Objects/Login/Page_CURA Healthcare Service/input_Password_password'), 'ThisIsNotAPassword')
+WebUI.setEncryptedText(findTestObject('Scriptless Mocked Objects/Login/Page_CURA Healthcare Service/input_Password_password'), 
+    'ThisIsNotAPassword')
 
 WebUI.click(findTestObject('Scriptless Mocked Objects/Login/Page_CURA Healthcare Service/button_Login'))
 

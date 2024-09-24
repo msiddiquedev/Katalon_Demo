@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 128.0.0.0,,,10-09-2024 23:24:31,10-09-2024 23:25:38,1m - 7.450s,FAILED
+,,,,,,,
+Test Cases/Record and Play Tests/Login,Chrome 128.0.0.0,,,10-09-2024 23:25:23,10-09-2024 23:25:38,15.401s,FAILED
+"openBrowser("""")",Chrome 128.0.0.0,,,10-09-2024 23:25:23,10-09-2024 23:25:24,1.792s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,10-09-2024 23:25:24,10-09-2024 23:25:25,0.068s,PASSED
+navigateToUrl(URL),Chrome 128.0.0.0,,,10-09-2024 23:25:25,10-09-2024 23:25:35,10.901s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 128.0.0.0,,,10-09-2024 23:25:35,10-09-2024 23:25:36,0.361s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Login""))",Chrome 128.0.0.0,,,10-09-2024 23:25:36,10-09-2024 23:25:37,1.059s,PASSED
+"setText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 128.0.0.0,,,10-09-2024 23:25:37,10-09-2024 23:25:37,0.639s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 128.0.0.0,,,10-09-2024 23:25:37,10-09-2024 23:25:38,0.509s,FAILED

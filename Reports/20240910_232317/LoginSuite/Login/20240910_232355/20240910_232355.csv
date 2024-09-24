@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Firefox 130.0,,,10-09-2024 23:24:33,10-09-2024 23:25:51,1m - 18.186s,FAILED
+,,,,,,,
+Test Cases/Record and Play Tests/Login,Firefox 130.0,,,10-09-2024 23:25:39,10-09-2024 23:25:51,12.150s,FAILED
+"openBrowser("""")",Firefox 130.0,,,10-09-2024 23:25:39,10-09-2024 23:25:45,5.871s,PASSED
+maximizeWindow(),Firefox 130.0,,,10-09-2024 23:25:45,10-09-2024 23:25:45,0.299s,PASSED
+navigateToUrl(URL),Firefox 130.0,,,10-09-2024 23:25:45,10-09-2024 23:25:49,3.980s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Firefox 130.0,,,10-09-2024 23:25:49,10-09-2024 23:25:50,0.492s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Login""))",Firefox 130.0,,,10-09-2024 23:25:50,10-09-2024 23:25:50,0.749s,PASSED
+"setText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Username_username""), Username)",Firefox 130.0,,,10-09-2024 23:25:50,10-09-2024 23:25:51,0.656s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Password_password""), Password)",Firefox 130.0,,,10-09-2024 23:25:51,10-09-2024 23:25:51,0.069s,FAILED

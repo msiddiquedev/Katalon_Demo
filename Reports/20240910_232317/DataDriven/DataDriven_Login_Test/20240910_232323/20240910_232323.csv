@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DataDriven_Login_Test,Chrome 128.0.0.0,,,10-09-2024 23:24:29,10-09-2024 23:25:14,45.584s,PASSED
+,,,,,,,
+Test Cases/Data Driven Tests/Login,Chrome 128.0.0.0,,,10-09-2024 23:24:30,10-09-2024 23:25:14,44.193s,PASSED
+"openBrowser("""")",Chrome 128.0.0.0,,,10-09-2024 23:24:33,10-09-2024 23:24:43,9.797s,PASSED
+maximizeWindow(),Chrome 128.0.0.0,,,10-09-2024 23:24:43,10-09-2024 23:24:43,0.521s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 128.0.0.0,,,10-09-2024 23:24:43,10-09-2024 23:24:53,9.805s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 128.0.0.0,,,10-09-2024 23:24:53,10-09-2024 23:24:57,3.542s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Login""))",Chrome 128.0.0.0,,,10-09-2024 23:24:57,10-09-2024 23:25:00,3.070s,PASSED
+"setText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Username_username""), Username)",Chrome 128.0.0.0,,,10-09-2024 23:25:00,10-09-2024 23:25:02,1.593s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/input_Password_password""), Password)",Chrome 128.0.0.0,,,10-09-2024 23:25:02,10-09-2024 23:25:02,0.770s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/button_Login""))",Chrome 128.0.0.0,,,10-09-2024 23:25:02,10-09-2024 23:25:04,2.015s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 128.0.0.0,,,10-09-2024 23:25:04,10-09-2024 23:25:05,1.067s,PASSED
+delay(3),Chrome 128.0.0.0,,,10-09-2024 23:25:05,10-09-2024 23:25:09,3.160s,PASSED
+"click(findTestObject(""Object Repository/Record and Play Objects/Login/Page_CURA Healthcare Service/a_Logout""))",Chrome 128.0.0.0,,,10-09-2024 23:25:09,10-09-2024 23:25:10,1.395s,PASSED
+closeBrowser(),Chrome 128.0.0.0,,,10-09-2024 23:25:10,10-09-2024 23:25:14,4.565s,PASSED
